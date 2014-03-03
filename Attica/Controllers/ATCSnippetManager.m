@@ -23,8 +23,9 @@
 
 #import "ATCSnippetManager.h"
 
-static NSString *SNIPPET_RELATIVE_DIRECTORY = @"Library/Developer/Xcode/UserData/CodeSnippets";
-static NSString *SNIPPET_EXTENSION = @"codesnippet";
+static NSString *const SNIPPET_RELATIVE_DIRECTORY = @"Library/Developer/Xcode/UserData/CodeSnippets";
+static NSString *const SNIPPET_SYSTEM_FILEPATH = @"/Applications/Xcode.app/Contents/PlugIns/IDECodeSnippetLibrary.ideplugin/Contents/Resources/SystemCodeSnippets.codesnippets";
+static NSString *const SNIPPET_EXTENSION = @"codesnippet";
 
 @implementation ATCSnippetManager
 
